@@ -4,9 +4,9 @@
 int main(){
     int jogador;
     int computador;
-    printf("ESCOLHA: \n1(TESOURA)\n2(PAPEL)\n3(PEDRA)\n");
+    printf("ESCOLHA: \n1(TESSOURA)\n2(PAPEL)\n3(PEDRA)\n");
     scanf("%d", &jogador);
-    srand(time(NULL));// FUNÇÃO QUE USA COMO BASE A HORA DO SISTEMA PARA GERAR UM NÚMERO ALEATÓRIO
+    srand(time(NULL));// FUNï¿½ï¿½O QUE USA COMO BASE A HORA DO SISTEMA PARA GERAR UM Nï¿½MERO ALEATï¿½RIO
     computador = 1 + (rand()) % 3;
 
     printf("O COMPUTADOR JOGOU: %d\n", computador);
